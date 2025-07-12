@@ -26,7 +26,7 @@ def showPasswordOnClick():
     password = generatePassword()
     passwordText.configure(state="normal")
     passwordText.delete("1.0", END)
-    passwordText.insert("1.0", current_password)
+    passwordText.insert("1.0", password)
     passwordText.configure(state="disabled")
 
 def copyPass():
