@@ -39,7 +39,8 @@ If you want the password generator as an executable, you can use this command:
 pyinstaller -F Password-Generator.py
 ```
 ## Screenshot of the tool
-!(Password-Gen-Screenshot.png)
+![App Screenshot](Password-Gen-Screenshot.png)
+
 ---
 
 Feel free to modify and enhance this tool to fit your password security needs!
