@@ -28,12 +28,19 @@ A simple Python application with a graphical user interface (GUI) to generate se
 - `random` — for generating pseudo-random numbers, that are then used as an index of the "allowed characters" array. This acts as a dice roll that selects a random element in the predifined allowed characters array.
 - `string` — for convenient access to sets of ASCII characters.
 
-## Notes
+## Running the Script
 
-- The password includes letters (both uppercase and lowercase), digits, and special symbols such as `!@#$%^&*()_+-;:>?/,.`.
-- The password length can be adjusted between 8 and 32 characters.
-- Make sure to generate a password before trying to copy it to the clipboard.
+You can run the script with the following command in your terminal: 
+```bash
+python Password-Generator.py
+```
+If you want the password generator as an executable, you can use this command:
+```bash
+pyinstaller -F Password-Generator.py
+```
+## Screenshot of the tool
 
+![App Screenshot]()
 ---
 
 Feel free to modify and enhance this tool to fit your password security needs!
