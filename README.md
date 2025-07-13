@@ -25,7 +25,7 @@ A simple Python application with a graphical user interface (GUI) to generate se
 ## Libraries Used
 
 - `tkinter` — for the GUI interface.
-- `random` — for generating pseudo-random numbers, that are then used as an index of the "allowed characters" array. This acts as a dice roll that selects a random element in the predifined allowed characters array.
+- `random` — for generating pseudo-random numbers, that are then used as an index of the "allowed characters" array. This acts as a dice roll that selects a random element in the predefined allowed characters array.
 - `string` — for convenient access to sets of ASCII characters.
 
 ## Running the Script
@@ -40,7 +40,7 @@ pyinstaller -F Password-Generator.py
 ```
 ## Screenshot of the tool
 
-![App Screenshot]()
+![App Screenshot]('Password-Gen-Screenshot.png')
 ---
 
 Feel free to modify and enhance this tool to fit your password security needs!

@@ -28,6 +28,8 @@ def showPasswordOnClick():
     passwordText.delete("1.0", END)
     passwordText.insert("1.0", password)
     passwordText.configure(state="disabled")
+    copyPassBtn.config(state="normal")
+
 
 def copyPass():
     if password:
@@ -64,6 +66,7 @@ generatePasswordBtn.grid(column=0, row=1, pady=(10, 0))
 
 # Copy button
 copyPassBtn = ttk.Button(frame, text="Copy Password", command=copyPass)
+copyPassBtn.config(state="disabled")
 copyPassBtn.grid(column=1, row=1, pady=(10, 0))
 
 # Password display (Text widget)
